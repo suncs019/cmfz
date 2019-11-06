@@ -17,6 +17,9 @@ public class CmfxApplication {
     public static void main(String[] args) {
         System.out.println("+++++++++++++++++++++++++++++++++");
         System.out.println("+++++++++++++++++++++++++++++++++");
+        System.out.println("---------------------------------");
+        System.out.println("+++++++++++++++++++++++++++++++++");
+        System.out.println("+++++++++++++++++++++++++++++++++");
         SpringApplication.run(CmfxApplication.class, args);
     }
     @Bean
