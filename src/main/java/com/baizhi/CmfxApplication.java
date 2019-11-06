@@ -18,7 +18,7 @@ public class CmfxApplication {
         System.out.println("+++++++++++++++++++++++++++++++++");
         System.out.println("+++++++++++++++++++++++++++++++++");
         System.out.println("---------------------------------");
-        System.out.println("+++++++++++++++++++++++++++++++++");
+        System.out.println("我是惠普着红");
         System.out.println("+++++++++++++++++++++++++++++++++");
         SpringApplication.run(CmfxApplication.class, args);
     }
