@@ -16,6 +16,7 @@ public class CmfxApplication {
     public static void main(String[] args) {
         System.out.println("+++++++++++++++++++++++++++++++++");
         System.out.println("9999999999999999999999999999999999999");
+         System.out.println("555555555555555555555555555555555555");
     }
     @Bean
     public HttpMessageConverters fastJsonHttpMessageConverters() {
