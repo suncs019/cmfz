@@ -3,18 +3,18 @@
     $(function () {
         $("#article-search").click(function () {
             $.ajax({
-                url:"${pageContext.request.contextPath}/article/search",
-                type:"post",
-                datatype:"json",
-                data:"content="+$("#article-input").val(),
-                success:function (data) {
+                url: "${pageContext.request.contextPath}/article/search",
+                type: "post",
+                datatype: "json",
+                data: "content=" + $("#article-input").val(),
+                success: function (data) {
                     $("#article-search-show").empty();
-                    $.each(data,function (i,article) {
+                    $.each(data, function (i, article) {
                         var tr = $("<tr>" +
-                            "<td>"+article.title +"</td>"+
-                            "<td>"+article.author +"</td>"+
-                            "<td>"+article.brief +"</td>"+
-                            "<td><a class='btn btn-danger'>详情</a></td>"+
+                            "<td>" + article.title + "</td>" +
+                            "<td>" + article.author + "</td>" +
+                            "<td>" + article.brief + "</td>" +
+                            "<td><a class='btn btn-danger'>详情</a></td>" +
                             "</tr>");
                         $("#article-search-show").append(tr);
                     })
@@ -22,7 +22,7 @@
             })
         })
     })
-    
+
 </script>
 
 
