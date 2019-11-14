@@ -15,12 +15,7 @@ import tk.mybatis.spring.annotation.MapperScan;
 public class CmfxApplication {
 
     public static void main(String[] args) {
-        System.out.println("+++++++++++++++++++++++++++++++++");
-        System.out.println("+++++++++++++++++++++++++++++++++");
-        System.out.println("---------------------------------");
-        System.out.println("我是惠普着红");
-        System.out.println("+++++++++++++++++++++++++++++++++");
-        SpringApplication.run(CmfxApplication.class, args);
+        System.out.println("+++++++++++++++++++++++++++++++++")
     }
     @Bean
     public HttpMessageConverters fastJsonHttpMessageConverters() {
